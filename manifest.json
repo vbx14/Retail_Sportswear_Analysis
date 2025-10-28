@@ -1,0 +1,17 @@
+{
+  "files": [
+    "data_files",
+    "output",
+    "schema_and_queries.sql",
+    "retail_etl_analysis.py",
+    "README.md",
+    "requirements.txt"
+  ],
+  "data_files": [
+    "products.csv",
+    "stores.csv",
+    "customers.csv",
+    "sales.csv"
+  ],
+  "output_files": []
+}
