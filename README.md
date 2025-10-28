@@ -41,21 +41,20 @@ It includes synthetic datasets (50k sales), SQL schema, an ETL/analysis script, 
    This will create the database & tables, load CSVs, and generate Excel summaries in the `output/` folder.
 
 ## Tableau setup and connection guide (macOS)
-1. Download Tableau Public (free) or Tableau Desktop (trial) from: https://www.tableau.com/
-2. Install following the vendor instructions for your OS.
-3. Open Tableau and choose **"MySQL"** under connectors (or use **"Microsoft Excel"** to load generated Excel files).
-4. If connecting to MySQL:
+1. Download & install Tableau Public (free) from: https://www.tableau.com/
+2. Open Tableau and choose **"MySQL"** under connectors (or use **"Microsoft Excel"** to load generated Excel files).
+3. If connecting to MySQL:
    - Host: `localhost`
    - Port: `3306`
    - Username: `root`
    - Password: `your_password`
    - Database: `retail_sales_db`
-5. Recommended Tableau sheets to build:
+4. Recommended Tableau sheets to build:
    - Regional Revenue (bar chart or map) using `output/regional_revenue.xlsx` or directly from DB
    - Monthly Revenue Trend (line chart) from `output/monthly_revenue.xlsx`
    - Top Products (bar chart) from `output/top_products.xlsx`
    - Customer segments: age_group vs revenue, gender vs revenue (use full DB if needed)
-6. Publish dashboard to Tableau Public (optional) to showcase on your portfolio.
+5. Publish dashboard to Tableau Public (optional) to showcase on your portfolio.
    - Check mine: https://public.tableau.com/app/profile/binit.semwal/viz/Retail_Sportswear_Analysis/
 
 ## Notes
